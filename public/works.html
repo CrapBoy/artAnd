@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>作品</title>
+	<link rel="stylesheet" href="./stylesheets/index.css">
+	<link rel="stylesheet" href="stylesheets/works.css">
+	<link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="./stylesheets/personal.css" /> -->
+	<link rel="stylesheet" type="text/css" href="./stylesheets/personal_style.css" />
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_1565369_dhlh3x5o7ke.css">
+	<link rel="stylesheet icon" href="images/artand.ico">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="overlay"></div>
+
+		<!-- Sidebar 侧边栏 -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+			<ul class="nav sidebar-nav" id="headImgOne">
+
+
+				<li id="headImgOneSmall">
+					<!-- <img id="headImg" src="/img/badf131ba7093071287f6f7cb351846b" alt=""> -->
+					<!-- <span id="headImgName">余强</span> -->
+				</li>
+				<div class="collapse collapseee" id="collapseExample">
+					<div class="well wellll" style="padding: 0px;margin: 0 !important;">
+						<span id="upFile" data-toggle="modal" data-target="#myModal">
+							<i id="jiahao" class="glyphicon glyphicon-plus"></i>
+						</span>
+					</div>
+				</div>
+				<li>
+					<a href="index.html"><i class="fa fa-fw fa-home"></i> 首页</a>
+				</li>
+				<li id="att" data-toggle="modal" data-target=".bs-example-modal-lg">
+					<a href="#"><i class="fa fa-fw fa-cog "></i> 关注</a>
+				</li>
+				<li id="regHead">
+					<a href="reg.html"><i class="fa fa-fw fa-folder"></i>注册</a>
+				</li>
+				<li id="loginHead">
+					<a href="login.html"><i class="fa fa-fw fa-file-o"></i>登录</a>
+				</li>
+
+
+				<li>
+					<a href="#"><i class="fa fa-fw fa-bank"></i> 下载APP</a>
+				</li>
+
+			</ul>
+		</nav>
+		<!-- /#sidebar-wrapper -->
+		<!-- 关注的作者弹框  -->
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<table class="table table-condensed">
+						<tr>
+							<td class="active text-center">关注的作者</td>
+
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<!-- 点赞弹框 -->
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <table class="table table-condensed" id="modal_likes">
+                        <tr>
+                            <td class="active text-center">已点赞的作品</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+		<!-- Page Content  页面内容  -->
+		<div id="page-content-wrapper">
+
+			<!-- 点击侧边栏 -->
+			<div class="hamburger is-closed animated fadeInLeft " data-toggle="offcanvas">
+
+			</div>
+			<!-- 头部 -->
+			<div class="header">
+				<p class="logbtn">
+					<!-- <a href="login.html">登录</a>
+					<a href="reg.html">注册</a> -->
+				</p>
+				<div class="log1 content">
+					<img src="./images/title.png" alt="" id="titleImg">
+				</div>
+				<div class="nav01 content">
+					<a href="index.html">艺术家</a>
+					<span>&nbsp;-&nbsp;</span>
+					<a href="plaza.html">商城</a>
+					<span>&nbsp;-&nbsp;</span>
+					<a href="works.html">作品</a>
+					<span>&nbsp;-&nbsp;</span>
+					<a href="article.html">文章</a>
+					<span>&nbsp;-&nbsp;</span>
+					<a href="shopping.html">购物车</a>
+				</div>
+			</div>
+			<!-- 主体 -->
+			<main>
+
+				<!-- 作品展示 -->
+				<!-- <div class="box">
+            <div class="works">
+                <div class="works_item front">
+                    <img src="" alt="">
+                </div>
+                <div class="works_item back">
+                    <div class="back_conText">
+                        <p><a href="#">标题</a></p>
+                        <p class="heng">————————</p>
+                        <p><a href="#">作者名</a></p>
+                        <p><a href="#">查看作品</a></p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+			</main>
+			<footer>
+				<div class="top">
+					<p>
+						&copy;2019
+						<span>Artand.cn用户协议</span>
+						<span>，隐私政策</span>
+						<span>，联系我们</span>
+						<span>，意见反馈</span>
+					</p>
+					<p>
+						<span><img class="footimg" src="http://shopjs.artand.cn/images/common/ga.png">京公网安备
+							11010502034111号 ，</span>
+						<span>京ICP备14050518号-2 ，</span>
+						<span>京网文【2017】6848-769号 ，</span>
+						<span>京ICP证140668号 ，</span>
+						<span>企业法人营业执照 ，</span>
+					</p>
+					<p>
+						<span>京朝艺【2017】0154号，</span>
+						<span>违法和不良信息举报电话：010-61438849</span>
+						<span> ，举报邮箱：jubao@artandus.com</span>
+					</p>
+				</div>
+				<div class="logo"><img src="./images/11.PNG" alt=""></div>
+				<div class="tubiao">
+					<span class="one"><i class="iconfont icon-weibo"></i></span>
+					<span class="two"><i class="iconfont icon-weixin"></i></span>
+					<span class="three"><i class="iconfont icon-facebook"></i></span>
+				</div>
+			</footer>
+
+			<!-- 结束网页 -->
+		</div>
+		<!-- /#page-content-wrapper -->
+
+	</div>
+	
+    <script src='https://cdn.bootcss.com/jquery/3.4.1/jquery.js'></script>
+    <script src="./javascripts/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/works.js"></script>
+	<script src="./javascripts/like.js"></script>
+	<script src="./javascripts/shouye.js"></script>
+    <script type="text/javascript">
+		
+		$(document).ready(function () {
+			var trigger = $('.hamburger'),
+				overlay = $('.overlay'),
+				isClosed = false;
+
+			trigger.click(function () {
+				hamburger_cross();
+			});
+
+			function hamburger_cross() {
+
+				if (isClosed == true) {
+					overlay.hide();
+					trigger.removeClass('is-open');
+					trigger.addClass('is-closed');
+					isClosed = false;
+				} else {
+					overlay.show();
+					trigger.removeClass('is-closed');
+					trigger.addClass('is-open');
+					isClosed = true;
+				}
+			}
+
+			$('[data-toggle="offcanvas"]').click(function () {
+				$('#wrapper').toggleClass('toggled');
+			});
+		});
+	</script>
+</body>
+
+</html>

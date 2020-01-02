@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: chocolate !important;
+}
+.navbar a{
+    color: #ccc !important;
+}
+.navbar a:hover{
+    color:white !important;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.logbtn {
+    font-size: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 28px;
+}
+
+.logbtn a {
+    float: right;
+    width: 64px;
+    height: 26px;
+    font-size: 12px;
+    border: 1px solid rgb(213, 207, 207);
+    text-align: center;
+    line-height: 26px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.logbtn a:nth-of-type(1) {
+    margin-right: 40px;
+}
+
+.log {
+    height: 135px;
+    margin: 110px auto 85px auto;
+}
+
+#titleImg {
+    display: block;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.nav {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+}
+
+.line {
+    width: 960px;
+    margin: 30px auto;
+    border-bottom: 1px solid #cccccc;
+}
+
+.lineer {
+    width: 960px;
+    margin: 10px auto;
+    border-bottom: 1px dashed #cccccc;
+}
+
+.liner {
+    width: 960px;
+    margin: 10px auto;
+    border-bottom: 1px solid #cccccc;
+}
+
+/*选择*/
+.KeyWordBox {
+    position: relative;
+}
+
+.KeyWordBtn {
+    position: relative;
+    /* right: 10px;
+    top: 8px; */
+    right: -290px;
+    top: -27px;
+}
+
+.author {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    /* border: 1px solid black; */
+}
+
+.author img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 990px !important;
+    margin: 0 auto;
+    /* border-bottom: 1px solid black; */
+}
+
+.container .checkBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.container .checkBox .col {
+    width: 100%;
+}
+
+#listBox {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ImgBox {
+    width: 24%;
+}
+
+.ImgBox .lazy {
+    height: 230px;
+}
+
+.ImgBox .lazy:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cardbody {
+    font-size: 12px;
+    position: relative;
+}
+
+.card-title {
+    width: 140px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.cardbody p {
+    margin-top: 10px;
+}
+
+.cardbody .card-text {
+    color: tomato;
+}
+
+.card-text {
+    margin-top: -8px !important;
+}
+
+.loveBtn {
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-right: 2px;
+    /* background-color: brown; */
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    top: -10px;
+    right: 0;
+}
+
+.authorname {
+    position: absolute;
+    right: 125px;
+    top: 22px;
+}
+
+.loveBtn:hover {
+    background-color: red;
+    color: white !important;
+}
+
+.loveBtn .taoxin {
+    vertical-align: middle;
+    width: 12px;
+    height: 11px;
+    display: inline-block;
+    background: url(../images/icons.png) -768px -10px no-repeat;
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+.loveBtn:hover .taoxin {
+    vertical-align: middle;
+    width: 12px;
+    height: 11px;
+    display: inline-block;
+    background: url(../images/icons.png) -768px -30px no-repeat;
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+/* 底部 */
+.Foot {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footTextBox p {
+    color: #ccc;
+}
+
+.footTextBox p:nth-of-type(1) {
+    margin-bottom: 5px;
+}
+
+.footTextBox p:nth-of-type(2) {
+    margin-bottom: 0px;
+}
+
+.footTextBox img {
+    vertical-align: middle;
+    margin-top: -3px;
+    width: 15px;
+}
+
+.Foot .two_spance {
+    width: 144px;
+    height: 53px;
+    background: url(../images/icons.png) -887px -477px no-repeat;
+    display: inline-block;
+}
+
+.footImgBox a {
+    display: inline-block;
+    width: 32px !important;
+    /* margin-right: 10px; */
+    height: 32px;
+}
+
+.footImgBox .wb {
+    background: url(../images/icons.png) -369px -100px no-repeat;
+}
+
+.footImgBox .wx {
+    background: url(../images/icons.png) -327px -100px no-repeat;
+}
+
+.footImgBox .fc {
+    background: url(../images/icons.png) -453px -100px no-repeat;
+}
+
+.footImgBox a:nth-of-type(1):hover {
+    background: url(../images/icons.png) -369px -184px no-repeat;
+}
+
+.footImgBox a:nth-of-type(2):hover {
+    background: url(../images/icons.png) -327px -184px no-repeat;
+}
+
+.footImgBox a:nth-of-type(3):hover {
+    background: url(../images/icons.png) -453px -184px no-repeat;
+}
+
+.backTop {
+    position: fixed;
+    z-index: 99;
+    width: 38px;
+    height: 38px;
+    background-color: blanchedalmond;
+    right: 100px !important;
+    bottom: 80px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 38px;
+    color: sandybrown !important;
+}
+.backTop:hover{
+    color: white !important;
+}
+.nav-Page {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    height: 30px;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+.nav-Page .curr{
+    color: black !important;
+}
+.nav-Page button:hover{
+    color: #000 !important;
+}

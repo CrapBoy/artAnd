@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.logbtn{
+    font-size: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 28px;
+}
+.logbtn a{
+    float: right;
+    width: 64px;
+    height: 26px;
+    font-size: 12px;
+    border: 1px solid rgb(213, 207, 207);
+    text-align: center;
+    line-height: 26px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.logbtn a:nth-of-type(1){
+       margin-right: 40px;
+}
+.log1{
+    height: 135px;
+    margin: 110px auto 85px auto;
+}
+#titleImg{
+    display: block;
+    width: 380px;
+    margin: 0 auto;
+}
+.header .nav01{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+.nav01 a{
+    color: rgb(0, 0 , 0);
+    text-decoration: none !important;
+}
+
+.main{
+    position: relative;
+    width: 970px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.show{
+    width: 300px;
+    height: 320px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.show img{
+    width: 300px;
+    height: 224px;
+}
+.ArtName{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.att{
+    display: inline-block;
+    border: 1px solid rgb(213, 207, 207);
+    width: 74px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 12px;
+}
+#artNum{
+    margin-top: 10px;
+}
+#artNum,#attNum{
+    font-size: 12px;
+    color: #999;
+}
+.next{
+    height: 260px;
+    margin-top: 50px;
+    margin-bottom: 170px;
+}
+#ti{
+    font-size: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(36,181,82);
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+    margin: 0 auto;
+}
+.next h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: rgb(44, 43, 42);
+    font-size: 20px;
+    font-weight: 400;
+}
+#wel{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer{
+    width: 960px;
+    height: 131px;
+    margin: 0 auto;
+}
+#headImgOne{
+    margin-top: -50px;
+}
+#headImg{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#headImgName{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    color:#fff;
+    letter-spacing: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+#upFile{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(213, 207, 207);
+    text-align: center;
+    line-height: 50px;
+    /* font-size: 40px; */
+    color: rgb(213, 207, 207);
+    cursor: pointer;
+}
+#jiahao{
+    font-size: 40px;
+}
+/* 登录提示 */
+.hint{
+    position: fixed;
+    width: 80px;
+    height: 40px;
+   bottom: 50px;
+    left: 50%;
+    background-color: grey;
+    color: rgb(213, 207, 207);
+    line-height: 40px;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: .8s;
+}
+
+
+footer{
+    width: 977px;
+    height: 131px;
+    border-top: 1px solid rgba(220, 220, 220, 0.733);
+    margin: 20px auto 0;
+    position: relative;
+}
+.top{
+    width: 768px;
+    height: 82px;
+    font-size: 12px;
+    color: #cccccc;
+    cursor: pointer;
+    padding: 15px 0px;
+    position: absolute;
+    top: 0px;
+}
+.top>p{
+    margin: 0px;
+}
+.top>p:first-child{
+    margin-bottom: 5px;
+}
+.top>p>span:hover{
+    color: rgba(0, 128, 0, 0.781);
+}
+
+.logo>img{
+    width: 144px;
+    height: 60px;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+}
+
+.tubiao{
+    width: 200px;
+    height: 32px;
+    position: absolute;
+    top: 79px;
+}
+.tubiao>span{
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0px 10px 0px 0px;
+    background-color: gainsboro;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 32px;
+    color: gray;
+}
+.tubiao>span>i{
+    font-size: 25px;
+}
+.one:hover{
+    background-color: indianred;
+    color: white;
+}
+.two:hover{
+    background-color: rgba(0, 128, 0, 0.63);
+    color: white;
+}
+.three:hover{
+    background-color: #006699;
+    color: white;
+}
+.footimg{
+    width: 12px;
+    height: 12px;
+    margin: 0px 3px 3px 0px;
+}
+
+
+.att:hover{
+    background-color: rgb(252,116,90);
+    color: #fff;
+}

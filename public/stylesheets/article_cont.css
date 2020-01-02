@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/* .lazy{
+    display: none;
+} */
+header {
+    padding-top: 100px;
+}
+
+header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align-last: center;
+    padding-bottom: 20px;
+}
+
+.max-width-750 {
+    max-width: 750px;
+    min-width: 750px;
+    margin: 0 auto;
+}
+
+.max-width-1000 {
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+.border {
+    border: 1px solid #E8E8E8;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    padding: 10px 55px;
+
+    /* font-size: 12px; */
+}
+
+.author {
+    display: flex;
+    color: #b7b7b7;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex: 1;
+}
+
+.left img {
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.author .left .identify {
+    background: url(../images/audit2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0 5px;
+}
+
+.author .left>span {
+    font-size: 12px;
+}
+
+.left .artist {
+    max-width: 8em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #069;
+}
+
+/* 分享图标 */
+.right {
+    float: right;
+}
+
+.right i {
+    font-size: 20px;
+    color: #999;
+}
+
+.right .wb:hover {
+    color: rgb(215, 99, 95)
+}
+
+.right .wx:hover {
+    color: rgb(137, 184, 107)
+}
+
+.right .bird:hover {
+    color: rgb(117, 192, 233)
+}
+
+.right .facebook:hover {
+    color: rgb(89, 117, 180)
+}
+
+.view {
+    overflow: hidden;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #b7b7b7;
+    line-height: 12px;
+}
+
+.view .left i img {
+    display: block;
+}
+
+.view .left .eye {
+    width: 16px;
+    height: 10px;
+}
+
+.view .left .x {
+    width: 16px;
+    height: 16px;
+}
+
+.view .left {
+    float: left;
+}
+
+.view .right {
+    float: right;
+}
+
+.container {
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 30px 55px;
+}
+
+.container img {
+    max-width: 640px;
+    display: block;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.text p {
+    padding: 0;
+    word-wrap: break-word;
+    word-break: normal;
+    font-size: 13px;
+    /* margin-bottom: 18px; */
+    font-size: 20px;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+    font-family: '微软雅黑';
+    font-size: 16px;
+
+}
+
+.zan_reply h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 30px 0;
+    border-bottom: 1px solid #999;
+}
+
+/* 点赞用户 */
+.zan {
+    text-align: center
+}
+
+.zan .btn_zan {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    color: #d04344;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+    height: 38px;
+    line-height: 37px;
+    position: relative;
+    width: 100px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    margin-top: 30px;
+    cursor: pointer;
+    left: 50px;
+}
+
+.zan .btn_zan:hover {
+    background: #d04344;
+    color: #fff;
+}
+
+/* 头像样式 */
+.head {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.head .person .headicon {
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    padding: 5px;
+}
+
+/* 评论 */
+.comment {
+    width: 750px;
+    padding: 20px 0;
+}
+
+.comment .details {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.details .head {
+    width: 64px;
+    border-radius: 64px;
+    vertical-align: middle;
+    float: left;
+}
+
+.details .head img {
+    width: 64px;
+    border-radius: 64px;
+}
+
+.details .text {
+    float: left;
+    padding-left: 10px;
+}
+
+.text .user {
+    float: left;
+}
+
+.text .user .date {
+    font-size: 12px;
+    color: #999;
+    padding-left: 3px;
+}
+
+.text .user .artist {
+    max-width: 8em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+}
+
+.text .user_text {
+    position: absolute;
+    top: 20px;
+    padding-top: 25px;
+}
+
+.text .user_text i {
+    font-size: 20px;
+    color: rgb(201, 201, 201);
+}
+
+.text .user_text .words {
+    max-width: 450px;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+.dot_bottom {
+    border-bottom: 1px dotted #E8E8E8;
+    position: relative;
+    text-align: left;
+}
+
+.reply {
+    position: absolute;
+    right: 10px;
+}
+
+.reply .btn {
+    padding: 0 15px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    border-radius: 15px;
+    color: #2c2b2a;
+    margin: 0 5px;
+    float: right;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.reply .answer {
+    color: rgb(173, 173, 173);
+}
+
+.reply .answer:hover {
+    color: #fff;
+    background: rgb(62, 175, 54);
+}
+
+.reply .zan {
+    color: rgb(226, 66, 51)
+}
+
+.reply .zan:hover {
+    background: rgb(226, 66, 51);
+    color: #fff;
+}
+
+/* 更多文章 */
+.more {
+    text-align: center;
+}
+
+.more_arts {
+    font-size: 24px;
+    padding: 24px 0;
+    text-align: center;
+    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+    font-weight: lighter;
+    margin-bottom: 35px;
+
+}

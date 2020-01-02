@@ -1,0 +1,136 @@
+.box:hover .works_ym{
+    transform: rotateX(-180deg);
+}
+main{
+    width: 1000px;
+    height: 100%;
+    perspective: 9000px;/* 视距 */
+    margin: 70px auto;
+}
+/* 作品展示 */
+.box{
+    width: 225px;
+    height: 225px;
+    display: inline-block;
+    margin-bottom: 17px;
+    margin-left:20px;
+}
+.works_ym{
+    margin-top: 0px;
+    width: 225px;
+    height: 225px;
+    transition: .5s;
+    transform-style:preserve-3d;/* 设置浏览器渲染模式（3d） */
+    display: inline-block;     
+}
+.works_item{
+    width: 225px;
+    height: 225px;
+    background-color: skyblue;
+    position: absolute;
+	top: 0;
+	backface-visibility: hidden;/* 设置3D效果下，元素背面隐藏 */
+}
+.front{
+    z-index: 1;
+}
+.front>img{
+    width: 100%;
+    height: 100%;
+}
+.back{
+    background-color:rgba(0, 0, 0, 0.74);
+    transform: rotateX(-180deg);
+}
+.back_conText{
+    color: white;
+    text-align: center;
+    margin: 55px auto;
+}
+.heng{
+    margin-bottom: 15px;
+}
+.back_conText>p>a{
+    display:block;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.back_conText>p>a:hover{
+    color: rgba(7, 250, 7, 0.507);
+    text-decoration: none;
+}
+
+/* ===================底部======================= */
+footer{
+    width: 977px;
+    height: 131px;
+    border-top: 1px solid rgba(220, 220, 220, 0.733);
+    margin: 20px auto 0;
+    position: relative;
+}
+.top{
+    width: 768px;
+    height: 82px;
+    font-size: 12px;
+    color: #cccccc;
+    cursor: pointer;
+    padding: 15px 0px;
+    position: absolute;
+    top: 0px;
+}
+.top>p{
+    margin: 0px;
+}
+.top>p:first-child{
+    margin-bottom: 5px;
+}
+.top>p>span:hover{
+    color: rgba(0, 128, 0, 0.781);
+}
+
+.logo>img{
+    width: 144px;
+    height: 60px;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+}
+
+.tubiao{
+    width: 200px;
+    height: 32px;
+    position: absolute;
+    top: 79px;
+}
+.tubiao>span{
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0px 10px 0px 0px;
+    background-color: gainsboro;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 32px;
+    color: gray;
+}
+.tubiao>span>i{
+    font-size: 25px;
+}
+.one:hover{
+    background-color: indianred;
+    color: white;
+}
+.two:hover{
+    background-color: rgba(0, 128, 0, 0.63);
+    color: white;
+}
+.three:hover{
+    background-color: #006699;
+    color: white;
+}
+.footimg{
+    width: 12px;
+    height: 12px;
+    margin: 0px 3px 3px 0px;
+}

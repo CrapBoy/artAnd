@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>作品详情</title>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1565369_dhlh3x5o7ke.css">
+    <link rel="stylesheet" href="./stylesheets/index.css">
+    <link rel="stylesheet" href="stylesheets/works_sub.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/personal_style.css">
+    <link rel="stylesheet" href="stylesheets/personal.css">
+    <link rel="stylesheet icon" href="images/artand.ico">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar 侧边栏 -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+
+			<ul class="nav sidebar-nav" id="headImgOne">
+
+
+				<li id="headImgOneSmall">
+					<!-- <img id="headImg" src="/img/badf131ba7093071287f6f7cb351846b" alt=""> -->
+					<!-- <span id="headImgName">余强</span> -->
+				</li>
+				<div class="collapse collapseee" id="collapseExample">
+					<div class="well wellll" style="padding: 0px;margin: 0 !important;">
+						<span id="upFile" data-toggle="modal" data-target="#myModal">
+							<i id="jiahao" class="glyphicon glyphicon-plus"></i>
+						</span>
+					</div>
+				</div>
+				<li>
+					<a href="index.html"><i class="fa fa-fw fa-home"></i> 首页</a>
+				</li>
+				<li id="att" data-toggle="modal" data-target=".bs-example-modal-lg">
+					<a href="#"><i class="fa fa-fw fa-cog "></i> 关注</a>
+				</li>
+				<li id="regHead">
+					<a href="reg.html"><i class="fa fa-fw fa-folder"></i>注册</a>
+				</li>
+				<li id="loginHead">
+					<a href="login.html"><i class="fa fa-fw fa-file-o"></i>登录</a>
+				</li>
+
+
+				<li>
+					<a href="#"><i class="fa fa-fw fa-bank"></i> 下载APP</a>
+				</li>
+
+			</ul>
+		</nav>
+        <!-- /#sidebar-wrapper -->
+        <!-- 关注的作者弹框  -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <table class="table table-condensed" id="modal_au">
+                        <tr>
+                            <td class="active text-center">作者</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 点赞弹框 -->
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <table class="table table-condensed" id="modal_likes">
+                        <tr>
+                            <td class="active text-center">已点赞的作品</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Page Content  页面内容  -->
+        <div id="page-content-wrapper">
+
+            <!-- 点击侧边栏 -->
+            <div class="hamburger is-closed animated fadeInLeft " data-toggle="offcanvas">
+
+            </div>
+            <div class="wrap">
+
+                <div id="toast"></div>
+                <!-- 插画展示 -->
+                <div class="show center">
+                    <!-- <div class="show_item center">
+                        <img class="show_img showImg" src="images/audit2.png">
+                        <img class="show_img" src="images/symbol.jpg">
+                        <img class="show_img" src="images/title.png">
+                    </div>
+                    <div class="show_effect">
+                        <div class="show_list bor"><img src="images/audit2.png"></div>
+                        <div class="show_list"><img src="images/symbol.jpg"></div>
+                        <div class="show_list"><img src="images/title.png"></div>
+                    </div> -->
+                </div>
+                <div class="author center">
+                    <div class="author_left">
+                        <!-- <p class="headImg"></p> -->
+                        <p class="auto">作者</p>
+                        <p class="tubiao1"><img src="images/audit2.png" alt=""></p>
+                        <p>2天前</p>
+                    </div>
+                    <div class="author_rigth">
+                        <a class="yulan" title="实景预览" href="#"><i class="iconfont icon-yulanmoban"></i></a>
+                        <a class="lianjie" href="#">artid.io/1068740</a>
+                        <a class="icon icon1" href="#"><i class="iconfont icon-weibo"></i></a>
+                        <a class="icon icon2" href="#"><i class="iconfont icon-weixin"></i></a>
+                        <a class="icon icon3" href="#"><i class="iconfont icon-twitter"></i></a>
+                        <a class="icon icon4" href="#"><i class="iconfont icon-facebook"></i></a>
+                        <a class="icon icon5" href="#"><i class="iconfont icon-dandelion"></i></a>
+                        <a class="icon icon6" href="#"><i class="iconfont icon-erweima"></i></a>
+                    </div>
+                </div>
+                <div class="Details center">
+                    <span class="tit">标题</span>
+                    <span>油画</span>
+                    <span>售价</span>
+                    <span class="active">￥1,800.00</span>
+                    <span><a href="#" class="addShopping"><i class="iconfont icon-jia"></i>加入购物车</a></span>
+                    <span><a href="shopping.html">查看购物车</a></span>
+                </div>
+                <div class="Notes center">创作手记：一颗流星拖着长尾巴似的蓝色磷光，在夜空中划出一条长长的弧线，好大一会儿才渐渐地消失了</div>
+                <div class="lable center">
+                    <span><i class="iconfont icon-icon--"></i></span>
+                    <span class="tong">油画</span>
+                    <span class="tong">晚安</span>
+                    <span class="tong tongL">治愈</span>
+                    <span><i class="iconfont icon-yulan"></i></span>
+                    <span class="liulan">24,287,90浏览</span>
+                    <span><i class="iconfont icon-kulou"></i></span>
+                </div>
+                <p class="awesome center">
+                    <i class="iconfont icon-icon-test"></i>
+                    <span class="yzan">赞</span>
+                </p>
+                <!-- 头像 -->
+                <div class="awesome_show center"></div>
+                <!-- 更多作品 -->
+                <div class="author_works center"><span class="art">作者</span>的更多作品</div>
+                <div class="hint text-center ">请登录</div>
+                <div class="author_show center">
+                    <!-- <div class="show_one">
+                        <div class="img"><img src="" alt=""></div>
+                        <div class="mask"></div>
+                        <div class="txt">
+                            <p>标题</p>
+                            <p>2019作品</p>
+                            <p class="zan">
+                                <i class="iconfont icon-icon-test"></i>
+                                <span>赞一下</span>
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+                <footer class="center">
+                    <p>
+                        <span>©<span class="zz">张彪</span></span>
+                        <span>artand.cn/uid/527176</span>
+                    </p>
+                    <p>
+                        <i class="iconfont icon-erweima"></i>
+                    </p>
+                </footer>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+    <script src='https://cdn.bootcss.com/jquery/3.4.1/jquery.js'></script>
+    <script src="./javascripts/bootstrap.min.js"></script>
+    <script src="./javascripts/toast.js"></script>
+    <script src="./javascripts/shouye.js"></script>
+    <script src="./javascripts/like.js"></script>
+    <script src="./javascripts/works_sub.js"></script>
+    <!-- <script src="./javascripts/works_sub_son.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            var trigger = $('.hamburger'),
+                overlay = $('.overlay'),
+                isClosed = false;
+
+            trigger.click(function () {
+                hamburger_cross();
+            });
+
+            function hamburger_cross() {
+
+                if (isClosed == true) {
+                    overlay.hide();
+                    trigger.removeClass('is-open');
+                    trigger.addClass('is-closed');
+                    isClosed = false;
+                } else {
+                    overlay.show();
+                    trigger.removeClass('is-closed');
+                    trigger.addClass('is-open');
+                    isClosed = true;
+                }
+            }
+
+            $('[data-toggle="offcanvas"]').click(function () {
+                $('#wrapper').toggleClass('toggled');
+            });
+        });
+    </script>
+</body>
+
+</html>

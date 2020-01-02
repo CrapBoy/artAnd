@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet icon" href="images/artand.ico">
+    <title>购物车</title>
+    <link rel="stylesheet" href="stylesheets/shopping.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.css" />
+    
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1565369_dhlh3x5o7ke.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="aaaa content_shopping head">
+            <div class="shopping_left">
+                <div class="logo1">
+                   <a href="index.html"> <img src="./images/symbol.jpg" alt=""></a>
+                </div>
+                <div class="logoText">
+                    <span>我的购物车</span>
+                    <span>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</span>
+                </div>
+            </div>
+            <!-- <p class="logbtn">
+                <a href="login.html">登录</a>
+                <a href="reg.html">注册</a>
+            </p>  -->
+            <!-- <div class="userSelf">
+                <span>admin</span>
+                <span>|&nbsp;我的订单</span>
+            </div> -->
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_head content_shopping">
+            <span>
+                <input type="checkbox" id="allCheck" name="chk">全选
+            </span>
+            <span></span>
+            <span>商品名称</span>
+            <span>单价</span>
+            <span>数量</span>
+            <span>小计</span>
+            <span>操作</span>
+        </div>
+        <!-- <div class="mainCon content_shopping">
+            <span>
+                <input type="checkbox" id="oneCheck" name="chk1">
+            </span>
+            <span><img src="./images/Fo.jpg" alt=""></span>
+            <span>雀之灵</span>
+            <span id="artPrice">8888元</span>
+            <span>
+                <i id="jian">-</i>
+                <input id="shopNum" type="text" value="1">
+                <i id="jia">+</i>
+            </span>   
+            <span id="artSumPrice">8888元</span>
+            <span><i id="delArt">×</i></span>
+        </div> -->
+        <div class="shopBox">
+
+        </div>
+
+        <div class="main_end content_shopping">
+            <div class="end_Left">
+                <span id="leftSpan1">继续购物</span>
+                <span id="leftSpan2">共选择
+                    <span id="goodsNum">0</span>&nbsp;件商品，已选择
+                    <span id="chooseNum">0</span>&nbsp;件
+                </span>
+            </div>
+            <div class="end_Right">
+                <span id="allCont">合计：
+                    <span id="countNum">0</span>&nbsp;元
+                </span>
+                <span id="allSum" data-toggle="modal" data-target="#myModal">去结算</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content mmm">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <!-- <h4 class="modal-title" id="myModalLabel">Mo</h4> -->
+            </div>
+            <div class="modal-body">
+              <img id="shopimg" src="./images/money.jpg" alt="">
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+
+    <footer>
+        <div class="top">
+            <p>
+                &copy;2019
+                <span>Artand.cn用户协议</span>
+                <span>，隐私政策</span>
+                <span>，联系我们</span>
+                <span>，意见反馈</span>
+            </p>
+            <p>
+                <span><img class="footimg" src="http://shopjs.artand.cn/images/common/ga.png">京公网安备 11010502034111号
+                    ，</span>
+                <span>京ICP备14050518号-2 ，</span>
+                <span>京网文【2017】6848-769号 ，</span>
+                <span>京ICP证140668号 ，</span>
+                <span>企业法人营业执照 ，</span>
+            </p>
+            <p>
+                <span>京朝艺【2017】0154号，</span>
+                <span>违法和不良信息举报电话：010-61438849</span>
+                <span> ，举报邮箱：jubao@artandus.com</span>
+            </p>
+        </div>
+        <div class="logo"><img src="./images/11.PNG" alt=""></div>
+        <div class="tubiao">
+            <span class="one"><i class="iconfont icon-weibo"></i></span>
+            <span class="two"><i class="iconfont icon-weixin"></i></span>
+            <span class="three"><i class="iconfont icon-facebook"></i></span>
+        </div>
+    </footer>
+
+    <script src='https://cdn.bootcss.com/jquery/3.4.1/jquery.js'></script>
+    <script src="./javascripts/shopping.js"></script>
+    <script src="./javascripts/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文章详情</title>
+    <!-- <link rel="icon" href="${ctx}/img/car.jpg" type="image/x-icon"/> -->
+    <!-- 链接头部图标 -->
+    <link rel="stylesheet" href="./images/article/icons/iconfont.css">
+    <link rel="icon" href="./images/symbol.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="./stylesheets/article_cont.css">
+    <link rel="stylesheet" href="./stylesheets/article.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/personal.css" />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/personal_style.css" />
+    <link rel="stylesheet" href="./stylesheets/chat.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li>
+                    <a href="http://localhost:3000/index.html"><i class="fa fa-fw fa-home"></i> 首页</a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/reg.html"><i class="fa fa-fw fa-folder"></i> 注册</a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/index.html"><i class="fa fa-fw fa-file-o"></i> 登录</a>
+                </li>
+                <li data-toggle="modal" data-target=".bs-example-modal-lg">
+                    <a href="#"><i class="fa fa-fw fa-cog "></i> 关注</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-bank"></i> 下载APP</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  页面内容  -->
+        <div id="page-content-wrapper">
+            <!-- 点击侧边栏 -->
+            <div class="hamburger is-closed animated fadeInLeft " data-toggle="offcanvas">
+            </div>
+        </div>
+
+
+        <header class="max-width-750 title">
+            <!-- 文章标题 -->
+        </header>
+        <!-- 文章内容 -->
+        <div class="container max-width-750">
+        </div>
+
+        <div class="max-width-750 border view">
+            <div class="left">
+                <i class="seeLeft"><img src="./images/article/Views.png" alt="" srcset="" class="eye"></i>
+                <!-- <span> 154161</span> -->
+                次浏览|
+                <i><img src="./images/article/jubao_x.png" alt="" srcset="" class="x"></i>
+            </div>
+            <div class="share right">
+                <div class="sns_box"><span>分享到：</span>
+                    <a href=""> <i class="iconfont wb">&#xe600;</i> </a>
+                    <a href=""> <i class="iconfont wx">&#xe7da;</i> </a>
+                    <a href=""> <i class="iconfont bird">&#xe65e;</i> </a>
+                    <a href=""> <i class="iconfont facebook">&#xe604;</i> </a>
+                    <a href=""> <i class="iconfont"></i> </a>
+                    <a href=""> <i class="iconfont ma">&#xe601;</i> </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-width-750 zan">
+            <div class="btn_zan">
+                <div class="zan_center"></div>
+                <span class="iconfont"> &#xe605;</span>
+                <span>赞</span>
+            </div>
+            <div class="head max-width-750">
+                <div class="person">
+                    <img class='headicon' src="./images/article/head/h1.jpg" alt="" srcset="">
+                    <img class='headicon' src="./images/article/head/h2.jpg" alt="" srcset="">
+                    <img class='headicon' src="./images/article/head/h3.jpg" alt="" srcset="">
+                    <img class='headicon' src="./images/article/head/h4.jpg" alt="" srcset="">
+                    <img class='headicon' src="./images/article/head/h5.jpg" alt="" srcset="">
+                    <img class='headicon' src="./images/article/head/h6.jpg" alt="" srcset="">
+                    <img class='headicon' src="./images/article/head/h7.jpg" alt="" srcset="">
+                    <img class='headicon' src="./images/article/head/h8.jpg" alt="" srcset="">
+                    <img class='headicon' src="./images/article/head/h9.jpg" alt="" srcset="">
+                    <img class='headicon' src="./images/article/head/h10.jpg" alt="" srcset="">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="max-width-750 zan_reply">
+            <h2>大家的评论</h2>
+            <div class="comment">
+                <!-- 每位用户评论 -->
+                <!-- <div class="details max-width-750 dot_bottom"> -->
+                <!-- 评论头像 -->
+                <!-- <div class="head">
+                        <img src="./images/symbol.jpg" alt="" srcset="">
+                    </div> -->
+                <!-- 评论语句 -->
+                <!-- <div class="text">
+                        <div class="user">
+                            <a href=""><span class="artist">Artand</span></a> -->
+                <!-- <img src="./images/article/audit2.png" alt="" srcset="" class="identify"> -->
+                <!-- <span class="date">10月16日</span>
+                        </div>
+                        <div class="user_text">
+                            <i class="iconfont">&#xe62e;</i>
+                            <span>太复杂了，看晕了</span>
+                            <i class="iconfont">&#xe63f;</i>
+                        </div>
+                    </div> -->
+                <!-- 点赞回复 -->
+                <!-- <div class="reply">
+                        <div class="zan btn">
+                            <div class="zan_center">
+                                <span class="iconfont"> &#xe605;</span>
+                                <span>赞</span>
+                            </div>
+                        </div>
+                        <div class="answer btn">
+                            <div class="zan_center">
+                                <span class="iconfont"> &#xe61e;</span>
+                                <span>回复</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+                <ul id="pn">
+                    <li class="list0">
+                        <!-- <a class="close" href="javascript:;">X</a> -->
+                        <!-- 头像 -->
+                        <div class="artisthead head"><img class='head1' src=" ./images/article/head/h1.jpg  " alt="" />
+                        </div>
+                        <div class="content">
+                            <p class="text"><span class="name">Andy：</span>经常性一般发稿，从来没有参加过活动，就是因为一是太忙，二是复杂了点。
+                                这次好好参与一下，不过时间看来又是紧张了点</p>
+                            <div class="pic"><img src=" " alt="" /></div>
+                            <div class="good"><span class="date">2019-02-14 23:01</span><a class="dzan"
+                                    href="javascript:;">赞</a>
+                            </div>
+                            <div class="people" total="2980">2980人觉得很赞</div>
+                            <div class="comment-list">
+                                <div class="comment" user="self">
+                                    <div class="comment-left"><img class='head1' src="./images/article/head/h3.jpg"
+                                            alt="" /></div>
+                                    <div class="comment-right">
+                                        <div class="comment-text"><span class="user">曾勇 : </span>
+                                            能不能直接在app里面操作，投稿。每次这样发邮件投稿太麻烦。</div>
+                                        <div class="comment-date">2018-02-14 22:00
+                                            <a class="comment-zan" href="javascript:;" total="13" my="1">13 取消赞</a>
+                                            <a class="comment-dele" href="javascript:;">回复</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment" user="self">
+                                    <div class="comment-left"><img class='head1' src="./images/article/head/h1.jpg"
+                                            alt="" /></div>
+                                    <div class="comment-right">
+                                        <div class="comment-text"><span class="user">孙志远 : </span>同上</div>
+                                        <div class="comment-date">2018-02-14 22:00
+                                            <a class="comment-zan" href="javascript:;" total="23" my="1">23 取消赞</a>
+                                            <a class="comment-dele" href="javascript:;">回复</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="hf">
+                                <textarea type="text" class="hf-text" height='200' autocomplete="off"
+                                    maxlength="100">评论…</textarea>
+                                <button class="hf-btn">回复</button>
+                                <span class="hf-nub">0/100</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 更多文章 -->
+
+        <div class="max-width-1000 more">
+            <!-- <h2 class='more_arts'>更多文章</h2> -->
+        </div>
+        <!-- 尾部 -->
+        <footer class="max-width-1000">
+            <div class="footer-left">
+                <p><em class="copyEM">&copy;</em>2019 <a href="/">Artand.cn</a> <a href="">用户协议</a>，<a href="">隐私政策</a>
+                    ，<a href="">联系我们</a> ，<a href="">意见反馈</a> </p>
+                <p><a href="/">京公网安备 11010502034111号</a>，<a href="/">京ICP备14050518号-2</a>，<a
+                        href="/">京网文【2017】6848-769号</a>，
+                    <a href="/">京ICP证140668号 </a> ，<a href="">企业法人营业执照</a> </p>
+                <p><a href="">京朝艺【2017】0154号</a>违法和不良信息举报电话：<a href="">010-61438849</a> ，举报邮箱：<a
+                        href="">jubao@artandus.com</a></p>
+                <div class="contact">
+                    <a href="" target="_blank" class="icon wb" title="新浪微博"></a>
+                    <a href="" target="_blank" class="icon wx" title="微信"></a>
+                    <a href="" target="_blank" class="icon fc" title="facebook"></a>
+                </div>
+            </div>
+            <div class="footer-right"></div>
+        </footer>
+        <div id="return_top"><i class="iconfont">&#xe602;</i></div>
+    </div>
+
+
+    <script src='./javascripts/jquery-1.8.3.min.js'></script>
+    <!-- <script src="./javascripts/lazyload.js"></script> -->
+    <script src="./javascripts/article_cont.js"></script>
+    <script src="./javascripts/chat.js"></script>
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                $('#return_top').fadeIn()
+            } else {
+                $('#return_top').fadeOut()
+            }
+        })
+        $('#return_top').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 1000);
+            return false;
+        })
+    });
+
+    // 点击小旗子侧边图标展开
+    $(document).ready(function () {
+        var trigger = $('.hamburger'),
+            overlay = $('.overlay'),
+            isClosed = false;
+        trigger.click(function () {
+            hamburger_cross();
+        });
+
+        function hamburger_cross() {
+            if (isClosed == true) {
+                overlay.hide();
+                trigger.removeClass('is-open');
+                trigger.addClass('is-closed');
+                isClosed = false;
+            } else {
+                overlay.show();
+                trigger.removeClass('is-closed');
+                trigger.addClass('is-open');
+                isClosed = true;
+            }
+        }
+
+        $('[data-toggle="offcanvas"]').click(function () {
+            $('#wrapper').toggleClass('toggled');
+        });
+    });
+    // $(function () {
+    //     $("img .lazy").lazyload({
+    //         threshold: 200,
+    //         effect: "fadeIn",
+    //         /* 插件找到 10 个不在可见区域的图片时才停止搜索 */
+    //         failure_limit : 10
+    //     }
+    //     );
+    // });
+
+    $('.btn_zan').click(function () {
+        $('.btn_zan').text('已赞')
+        $('.btn_zan').css({
+            'background': ' #d04344',
+            'color': '#fff',
+            'font-size': '16px'
+        })
+        // $('.person').append(
+        //     ` <img class='headicon' src="./images/article/head/h1.jpg" alt="" srcset="">`
+        // )
+    })
+</script>
+
+</html>

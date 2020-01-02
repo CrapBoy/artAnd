@@ -1,0 +1,441 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.head_img {
+	margin-top: 0px;
+	width: 1500px;
+	height: 214px;
+	background-image: url(../images/hand.jpg);
+	background-color: #000;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+}
+
+.over {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/blur.jpeg) 0 bottom repeat-x;
+	opacity: .8;
+	background-image: linear-gradient(to top, #000000, #2f3031, #484949, #787d7dc7, #e0e0e100);
+}
+
+/* 中间名字 */
+.h_name {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	color: white;
+}
+
+.dom{
+	position: absolute;
+	bottom: 200px;
+	left: 48%;
+	font-size: 34px;
+	cursor: pointer;
+	color: grey;
+}
+
+/* 第二个界面 */
+.second {
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+
+.login {
+
+	height: 30px;
+	right: 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: 30px;
+
+}
+
+.login_lg,
+.register {
+	width: 70px;
+	margin-right: 20px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #bfbdb8;
+	color: #080808;
+	cursor: pointer;
+
+}
+
+.login_lg:hover,
+.register:hover {
+	border: 1px solid greenyellow;
+	color: green;
+}
+
+.conten_wl {
+	width: 1200px;
+
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.head_protrait {
+	margin-top: 90px;
+	width: 300px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.head_protrait>div:nth-of-type(1){
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.head_protrait>img {
+	width: 150px;
+	height: 150px;
+	background-color: #484949;
+	border-radius: 50%;
+}
+
+.ft_name {
+	font-size: 30px;
+	color: #2c2b2a;
+}
+
+.ft_works {
+	color: #bfbdb8;
+	font-size: 12px;
+}
+
+.text-center>h4 {
+	font-size: 14px;
+	color: #999;
+	position: relative;
+	top: 15px;
+}
+
+
+.works {
+	margin-top: 80px;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.works_hd {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid #bfbdb8;
+	border-top: 1px solid #bfbdb8
+}
+
+.works_hd>div:first-child {
+	width: 420px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.nav_text{
+	width: 500px;
+}
+/* 导航 */
+.x2 {
+	width:20%;
+	border-right: 1px solid #bfbdb8;
+	color: #bfbdb8;
+	font-size: 14px;
+	text-align: center;
+}
+.a_text{
+	color: #bfbdb8;
+	text-decoration: none;
+}
+.a_text:hover{
+	color: #3eaf36;
+	text-decoration: none;
+}
+
+.did {
+	border: none;
+}
+
+.add_ft {
+	color: #2c2b2a
+}
+
+.works_img_all {
+	width: 100%;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+	margin-top: 20px;
+}
+
+/* 图片 */
+.works_imgs {
+	margin-bottom: 20px;
+	width: 300px;
+	
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.works_imgs>img {
+	height: 300px;
+	width: 300px;
+}
+.img_work{
+	width: 300px;
+	height: 173px;
+}
+.imgs_ft {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3px;
+	position: relative;
+}
+
+.praise_all {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.praise {
+	text-align: center;
+	line-height: 30px;
+	width: 90px;
+	height: 30px;
+	color: #e24233;
+	cursor: pointer;
+	font-size: 11px;
+	border-radius: 15px;
+	border: 1px solid #bfbdb8;
+
+}
+
+.praise:hover {
+	background: #e24233;
+	color: white;
+
+}
+
+.btn01 {
+	color: #2C2B2A;
+	font-size: 12px;
+	text-align: center;
+
+}
+
+.btn01:hover {
+	color: #3eaf36;
+}
+
+.author_name {
+	position: absolute;
+	left: 10px;
+	bottom: -10px;
+	font-size: 12px;
+	color: #0069D9;
+	
+}
+/* 文章类 */
+.KAITI{
+	color: #999;
+    font-size: 14px;
+}
+
+.text_headline{
+	width: 100%;
+	font-size: 14px;
+    line-height: 24px;
+	height: 24px;
+	text-align: left;
+	font-weight: normal;
+}
+a{
+	list-style: none;
+}
+.text_headline:hover{
+	color: #3eaf36;
+}
+.text_cont{
+	width: 100%;
+
+	color: #999;
+    line-height: 22px;
+    font-size: 12px;
+    word-break: break-all;
+	position: relative;
+	margin-bottom: 10px;
+}
+.text_cont>span{
+	position: relative;
+	bottom: 0;
+	right: 2px;
+	color: #069;
+	cursor: pointer;
+}
+.text_cont>span:hover{
+	color: #3eaf36;
+}
+
+.footer_art{
+	width: 900px;
+	height: 60px;
+	border-top: 1px solid #F2F2F0;
+	text-align: left;
+	color: #cccccc;
+}
+/* 简介 */
+.text_brief{
+	width: 100%;
+	text-align: left;
+	font-size: 14px;
+    color: #2c2b2a;
+    line-height: 24px;
+    padding-bottom: 30px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.text_brief>p{
+	color: #2c2b2a;
+    line-height: 24px;
+    padding: 3px 0;
+    word-break: break-all;
+}
+.footer_berief{
+	width: 100%;
+	
+
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	
+}
+.titie_br{
+	width: 750px;
+	
+	
+}
+.pl_berief{
+	margin-top: 15px;
+	width: 750px;
+	border-top: 1px solid #F2F2F0;
+	border-bottom: 1px solid #f2f2f0;
+	list-style: none;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+
+
+}
+.pl_berief>li{
+	width: 750px;
+	height: 104px;
+;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.touxian_br{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	
+}
+.touxian_br>img{
+	width: 64px;
+	height: 64px;
+}
+.cotnet_br{
+	width: 224px;
+	height: 34px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 0px;
+}
+	
+
+.cotnet_br>div:nth-of-type(2){
+	font-size: 12px;
+    color: #999;
+    padding-left: 3px;
+}
+.cotnet_br>div:nth-of-type(1){
+	color: #2c2b2a;
+    line-height: 24px;
+    
+    word-break: break-all;
+}
+.zan_br{
+	width: 180px;
+	height: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.zan_br_praise{
+	border-radius: 15px;
+	width: 62px;
+	height: 28px;
+	font-size: 12px;
+	color: #2c2b2c;
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	line-height: 28px;
+}
+.zan_br_praise:hover{
+	color: #3eaf36;
+	border: 1px solid #3eaf36;
+}
+.praise_br{
+	width: 62px;
+	height: 28px;
+}
+/* 底部 */
+.bot {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: #f2f2f0;
+	font-size: 18px;
+	color: #bfbdb8;
+	
+}
+.bot:hover{
+	background: #f7f7f6;
+	    color: #3eaf36;
+}

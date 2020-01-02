@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#content {
+    /* padding-top: 60px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.max-width-1000 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 15px 0 15px;
+}
+
+#article-img {
+    width: 300px;
+    /* height: 355px; */
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+}
+
+.img-box {
+    width: 300px;
+    height: 173px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.img-box img {
+    width: 300px;
+}
+
+.text-box h3{
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.text-box h3:hover {
+    color: #3eaf36;
+    transition: border 0.1s linear 0s, color 0.1s linear 0s, background-color 0.1s linear 0s;
+}
+
+.text-box p {
+    color: #999;
+    line-height: 22px;
+    font-size: 12px;
+    word-break: break-all;
+    /* height: 88px; */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.text-box p .read-blue {
+    color: #069;
+    transition: border 0.1s linear 0s, color 0.1s linear 0s, background-color 0.1s linear 0s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-box p .read-blue:hover {
+    color: #3eaf36;
+    transition: border 0.1s linear 0s, color 0.1s linear 0s, background-color 0.1s linear 0s;
+}
+
+.praisese {
+    margin-top: 15px;
+    position: relative;
+    text-align: left;
+    min-height: 42px;
+    color: #bfbdb8;
+}
+
+/* .praise .artist{
+    position: relative;
+    top: 6px;
+} */
+.praisese .by_icon {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin: 0 3px;
+    padding: 0;
+    background: #000;
+    background: url(../images/sprite.png) -671px -80px no-repeat;
+}
+
+.artist {
+    display: inline-block;
+}
+
+.artist .name {
+    color: #069;
+    text-decoration: none;
+    transition: border 0.1s linear 0s, color 0.1s linear 0s, background-color 0.1s linear 0s;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.artist .name:hover {
+    color: #3eaf36;
+    transition: border 0.1s linear 0s, color 0.1s linear 0s, background-color 0.1s linear 0s;
+}
+
+.btn-zan {
+    display: inline-block;
+    width: 90px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    border-radius: 15px;
+    color: #e24233;
+    background: #fff;
+    font-size: 12px;
+    position: absolute;
+    right: 2px;
+    text-decoration: none;
+}
+
+.btn-zan:hover {
+    background: #e24233;
+    color: #FFF;
+    border: 1px solid #e24233;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+.btn-zan-clicked{
+    background: #e24233;
+    color: #FFF;
+    border: 1px solid #e24233;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+
+}
+
+.btn-zan .heart {
+    width: 12px;
+    height: 11px;
+    display: inline-block;
+    background: url(../images/sprite.png) -768px -10px no-repeat;
+    margin-right: 3px;
+}
+
+.btn-zan:hover .heart {
+    background: url(../images/sprite.png) -768px -31px no-repeat;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+footer {
+    height: 130px;
+    border-top: 1px solid #F2F2F0;
+    position: relative;
+}
+
+
+.footer-left {
+    width: 80%;
+    color: #ccc;
+    text-align: left;
+    font-size: 12px;
+    float: left;
+}
+
+.footer-left p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer-left a {
+    color: #ccc;
+}
+
+.footer-left a:hover {
+    color: #3eaf36;
+}
+
+.copyEM {
+    font-size: 13px;
+    font-family: arial;
+    padding-right: 3px;
+}
+
+.footer-left .contact {
+    width: 200px;
+    height: 32px;
+    padding-top: 20px;
+}
+
+.footer-left .contact .icon {
+    width: 32px;
+    margin-right: 10px;
+    height: 32px;
+    display: inline-block;
+}
+
+.footer-left .contact .wb {
+    background: url(../images/sprite.png) -369px -100px no-repeat;
+}
+
+.footer-left .contact .wb:hover {
+    background: url(../images/sprite.png)-369px -184px no-repeat;
+}
+
+.footer-left .contact .wx {
+    background: url(../images/sprite.png) -327px -100px no-repeat;
+}
+
+.footer-left .contact .wx:hover {
+    background: url(../images/sprite.png)-327px -184px no-repeat;
+}
+
+.footer-left .contact .fc {
+    background: url(../images/sprite.png) -453px -100px no-repeat;
+}
+
+.footer-left .contact .fc:hover {
+    background: url(../images/sprite.png)-453px -184px no-repeat;
+}
+
+.footer-right {
+    width: 144px;
+    height: 53px;
+    background: url(../images/sprite.png) -887px -477px no-repeat;
+    display: inline-block;
+}
+
+#return_top {
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    z-index: 100;
+    background: rgb(232, 226, 234);
+    border-radius: 5px;
+    display: none;
+}
+
+#return_top i {
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    font-size: 28px;
+    color: rgb(188, 188, 188);
+    cursor: pointer;
+}

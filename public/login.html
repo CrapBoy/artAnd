@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>登陆注册</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords"
+		content="Slide Login Form template Responsive, Login form web template, Flat Pricing tables, Flat Drop downs Sign up Web Templates, Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+
+	<!-- Custom Theme files -->
+	<link href="stylesheets/style_login.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- //Custom Theme files -->
+	<link rel="stylesheet" href="./stylesheets/drag.css">
+	<!-- web font -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet"> -->
+	<!-- //web font -->
+	<link rel="stylesheet icon" href="images/artand.ico">
+
+</head>
+
+<body>
+
+	<!-- main -->
+	<div class="w3layouts-main">
+		<div class="bg-layer">
+			<h1>ARTAND</h1>
+			<div class="header-main">
+				<div class="main-icon">
+					<span class="fa fa-eercast"></span>
+				</div>
+				<div class="header-left-bottom">
+					<div class="icon1">
+						<span class="fa fa-user"></span>
+						<input id="userlogin" type="text" placeholder="用户名"
+							style="border: none; font-size: 15px;outline:medium; background-color: rgb(245,244,244);"
+							required="" />
+					</div>
+					<div class="icon1">
+						<span class="fa fa-lock"></span>
+						<input id="userpwd" type="password" placeholder="密码" required="" />
+					</div>
+					<div id="drag"></div><br>
+					<div class="login-check">
+						<label class="checkbox"><input type="checkbox" id="check" name="checkbox" ><i> </i> Keep me
+							logged in</label>
+					</div>
+					<div class="bottom">
+						<button id="ArtLogin" class="btn">登&nbsp;陆</button>
+					</div>
+
+					<div class="links">
+						<p id="prompt"><a href="#">忘记密码?</a></p>
+						<p class="right"><a href="reg.html">前往注册</a></p>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="social">
+					<ul>
+						<li>Use Other : </li>
+						<li><a href="#" class="facebook"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="#" class="twitter"><span class="fa fa-twitter"></span></a></li>
+						<li><a href="#" class="google"><span class="fa fa-google-plus"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+	
+	<script src="./javascripts/login_reg.js"></script>
+	<script src="./javascripts/drag.js"></script>
+	
+	<script>
+		$('#drag').drag();
+
+		
+		//设置cookie
+        function setCookie(_name, val, expires) {
+            var d = new Date();
+            d.setDate(d.getDate() + expires);
+            document.cookie = _name + "=" + val + ";path=/;expires=" + d.toGMTString();
+        }
+
+        //获取cookie
+        function getCookie(_name) {
+            var cookie = document.cookie;
+            var arr = cookie.split("; ");
+            for (var i = 0; i < arr.length; i++) {
+                var newArr = arr[i].split("=");
+                if (newArr[0] == _name) {
+                    return newArr[1];
+                }
+            }
+		}
+        if (getCookie("init")) {
+            var cookie = JSON.parse(getCookie("init"));
+			$('#userlogin').val(cookie.name)
+			$('#userpwd').val(cookie.pass);
+            $('#check').prop('checked',true)
+        }
+        $('#ArtLogin').on('click',()=>{
+            if ($('#check').prop('checked')) {
+                var obj = {};
+                obj.name = $('#userlogin').val();
+                obj.pass = $('#userpwd').val();
+                var str = JSON.stringify(obj);
+                setCookie("init", str, 7);
+            }
+        })
+	</script>
+</body>
+
+</html>

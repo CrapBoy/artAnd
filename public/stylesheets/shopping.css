@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245,245,245);
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-bottom: 2px solid rgb(255,103,0);
+}
+.content_shopping{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1{
+    width: 96px;
+    height: 48px;
+    margin-top: 26px;
+    display: inline-block;
+}
+.logo1 img{
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+}
+.logoText{
+    display: inline-block;
+}
+
+.logoText span:nth-of-type(1){
+    font-size: 28px;
+    font-weight: 400;
+}
+.logoText span:nth-of-type(2){
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    margin-left: 10px;
+}
+.userSelf{
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    
+}
+.userSelf span{
+    line-height: 60px;
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    font-weight: 400;
+}
+.main_head{
+    font-size: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 38px;
+}
+.main_head span{
+    height: 70px;
+    font-size: 16px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 14px;
+    color:rgb(66, 66, 66);
+    font-weight: 400;
+}
+#allCheck{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.main_head span:nth-of-type(1){
+    width: 110px;
+}
+.main_head span:nth-of-type(2){
+    width: 120px;
+}
+.main_head span:nth-of-type(3){
+    width: 380px;
+    text-align: left;
+}
+.main_head span:nth-of-type(4){
+    width: 158px;
+}
+.main_head span:nth-of-type(5){
+    width: 150px;
+}
+.main_head span:nth-of-type(6){
+    width: 120px;
+    text-align: right;
+    margin-right: 80px;
+}
+.main_head span:nth-of-type(7){
+    width: 80px;
+}
+
+#oneCheck{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.mainCon{
+    height: 115px;
+    background-color: #fff;
+        font-size: 0;
+        height: 115px;
+        display: flex;
+        align-items: center;
+}
+
+.mainCon span{
+    height: 115px;
+    font-size: 16px;
+    line-height: 115px;
+    text-align: center;
+    font-size: 14px;
+    color:rgb(66, 66, 66);
+    font-weight: 400;
+}
+
+.mainCon span:nth-of-type(1){
+    width: 110px;
+}
+.mainCon span:nth-of-type(2){
+    width: 120px;
+}
+.mainCon span:nth-of-type(3){
+    width: 380px;
+    text-align: left;
+}
+.mainCon span:nth-of-type(4){
+    width: 158px;
+}
+.mainCon span:nth-of-type(5){
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainCon span:nth-of-type(6){
+    width: 120px;
+    text-align: right;
+    margin-right: 80px;
+}
+.mainCon span:nth-of-type(7){
+    width: 80px;
+}
+#delArt{
+    display: inline-block;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(224,224,224);
+    cursor: pointer;
+    font-style: normal;
+}
+.mainCon span:nth-of-type(2) img{
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+.main{
+    margin-bottom: 70px;
+}
+.main_end{
+    height: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+
+}
+.main_end{
+    display: flex;
+    justify-content: space-between;
+
+}
+.end_Left{
+    display: inline-block;
+    height: 50px;
+    width: 320px;
+    text-indent: 2em;
+}
+.end_Right{
+    display: inline-block;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.end_Left span{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(117, 117, 117);
+    line-height: 50px;
+}
+#goodsNum,#chooseNum{
+    color: red;
+}
+#leftSpan2{
+    margin-left: 19px;
+}
+.end_Right span{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(255, 103, 0);
+}
+#countNum{
+    font-size: 30px;
+}
+#allSum{
+    width: 202px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(224,224,224);
+    color: rgb(176,176,176);
+}
+#shopNum{
+    display: block;
+    width: 50px; 
+    height: 20px;
+    text-align: center;   
+}
+
+#jia,#jian{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid rgb(176,176,176);
+    font-style: normal;
+    cursor: pointer;
+}
+
+
+footer{
+    width: 977px;
+    height: 131px;
+    border-top: 1px solid rgba(220, 220, 220, 0.733);
+    margin: 20px auto 0;
+    position: relative;
+}
+.top{
+    width: 768px;
+    height: 82px;
+    font-size: 12px;
+    color: #cccccc;
+    cursor: pointer;
+    padding: 15px 0px;
+    position: absolute;
+    top: 0px;
+}
+.top>p{
+    margin: 0px;
+}
+.top>p:first-child{
+    margin-bottom: 5px;
+}
+.top>p>span:hover{
+    color: rgba(0, 128, 0, 0.781);
+}
+
+.logo>img{
+    width: 144px;
+    height: 60px;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+}
+
+.tubiao{
+    width: 200px;
+    height: 32px;
+    position: absolute;
+    top: 79px;
+}
+.tubiao>span{
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0px 10px 0px 0px;
+    background-color: gainsboro;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 32px;
+    color: gray;
+}
+.tubiao>span>i{
+    font-size: 25px;
+}
+.one:hover{
+    background-color: indianred;
+    color: white;
+}
+.two:hover{
+    background-color: rgba(0, 128, 0, 0.63);
+    color: white;
+}
+.three:hover{
+    background-color: #006699;
+    color: white;
+}
+.footimg{
+    width: 12px;
+    height: 12px;
+    margin: 0px 3px 3px 0px;
+}
+
+
+
+
+.logbtn{
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+
+}
+.logbtn a{
+    width: 64px;
+    height: 26px;
+    font-size: 12px;
+    border: 1px solid rgb(213, 207, 207);
+    text-align: center;
+    line-height: 26px;
+    color: #000;
+    text-decoration: none;
+}
+
+#shopimg{
+    width: 380px;
+    
+}
+.mmm{
+    width: 410px;
+    margin: 0 auto;
+}
